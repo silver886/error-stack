@@ -1,20 +1,20 @@
 {
-  "name": "@silver886/error-stack",
+  "name": "@silver886/error-context",
   "version": "0.0.0",
-  "description": "Error stack for Typescript",
+  "description": "Support Error that contains context for Typescript",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
     "comments": "leasot --ignore .git/**,node_modules/** --tags NOTE OPTIMIZE TODO HACK XXX FIXME BUG --filetype .ts **",
     "lint": "eslint .",
     "watch-test": "jest --coverage --watchAll",
-    "test": "jest --coverage",
+    "test": "jest --coverage || true",
     "prepare": "tsc",
     "prepublishOnly": "pnpm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/silver886/error-stack.git"
+    "url": "git+https://github.com/silver886/error-context.git"
   },
   "keywords": [],
   "author": {
@@ -23,9 +23,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/silver886/error-stack/issues"
+    "url": "https://github.com/silver886/error-context/issues"
   },
-  "homepage": "https://github.com/silver886/error-stack#readme",
+  "homepage": "https://github.com/silver886/error-context#readme",
   "devDependencies": {
     "@silver886/eslint-config": "^2.1.0",
     "@types/jest": "^27.4.1",
