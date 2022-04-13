@@ -5,9 +5,9 @@
     "lib": [
       "ES2021"
     ],
-    "outDir": "./dist", // Use `lib` for npm package.
+    "outDir": "./lib",
     "alwaysStrict": true,
-    "declaration": true, // Use `false` for webpack.
+    "declaration": true,
     "experimentalDecorators": true,
     "inlineSourceMap": true,
     "inlineSources": true,
@@ -31,21 +31,6 @@
     "paths": {
       "@@src/*": [
         "src/*"
-      ],
-      "@@models/*": [
-        "src/models/*"
-      ],
-      "@@controllers/*": [
-        "src/controllers/*"
-      ],
-      "@@services/*": [
-        "src/services/*"
-      ],
-      "@@apis/*": [
-        "src/apis/*"
-      ],
-      "@@utils/*": [
-        "src/utils/*"
       ]
     }
   },
