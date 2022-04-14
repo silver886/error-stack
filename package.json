@@ -1,6 +1,6 @@
 {
   "name": "@silver886/error-context",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Support Error that contains context for Typescript",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -16,7 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/silver886/error-context.git"
   },
-  "keywords": [],
+  "keywords": [
+    "error"
+  ],
   "author": {
     "name": "Leo Liu",
     "email": "karta1041337@gmail.com"
