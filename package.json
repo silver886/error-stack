@@ -1,6 +1,6 @@
 {
   "name": "@silver886/error-context",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Support Error that contains context for Typescript",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
